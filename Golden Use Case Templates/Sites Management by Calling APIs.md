@@ -136,7 +136,7 @@ API Response:
 >If users want to get more details about this API or get errors when calling this API please check the API documentation on[Github_site_transaction](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.02/blob/master/REST%20APIs%20Documentation/Site%20Management/Create%20A%20Site%20Transaction%20API.md)
 
 ***2b. call site_transaction_heartbeat API***
->This API send a hearbeat signal to the server to keep a transaction alive.
+>This API sends a heartbeat signal to the server to keep a transaction alive.
 
 >Failed to do so will cause transaction being disgarded by the system if no other site change operations sent to the server via the current session with the next 30 seconds.If users want to get more details about this API or get errors when calling this API please check the API documentation on[Github_site_transaction_heartbeat](https://github.com/NetBrainAPI/NetBrain-REST-API-V8.02/blob/master/REST%20APIs%20Documentation/Site%20Management/Site%20Transaction%20Heartbeat%20API.md)
 
